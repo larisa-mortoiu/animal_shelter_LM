@@ -1,0 +1,17 @@
+.submit-ribbon button {
+  padding: 8px 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.submit-ribbon .browse-button {
+  background-color: #3ea3d5a1;
+  color: black;
+}
+
+.submit-ribbon .submit-button {
+  background-color: #28d765a1;
+  color: black;
+}

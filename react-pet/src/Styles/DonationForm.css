@@ -1,0 +1,8 @@
+.donation_container {
+  background: linear-gradient(
+    rgba(252, 252, 252, 0.708),
+    rgba(100, 244, 114, 0.696)
+  );
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,68 @@
+.servicii-home {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicii-homes img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.servicii-homes {
+  position: relative;
+}
+
+.servicii-homes > img {
+  height: 35vh;
+  width: auto;
+  margin: 0px 10px 0px 10px;
+  background-color: rgba(156, 251, 167, 0.744);
+}
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  background: rgba(48, 207, 101, 0.489);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  opacity: 0;
+}
+
+.servicii-homes:hover .caption {
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.servicii-title {
+  text-align: center;
+  font-size: 4vw;
+}
+
+#servicii-div {
+  height: 8vw;
+  position: relative;
+}
+
+#servicii-div .servicii-title {
+  margin-top: auto;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

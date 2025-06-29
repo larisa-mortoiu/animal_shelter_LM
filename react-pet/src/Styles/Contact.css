@@ -1,0 +1,158 @@
+.contactUs {
+  position: relative;
+  width: 100%;
+  margin-top: 10vh;
+  padding: 40px 100px;
+}
+
+.contactUs h2 {
+  color: black;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+}
+
+.form {
+  grid-area: form;
+}
+
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+.contact {
+  padding: 40px;
+  border-radius: 20px;
+  background-color: rgba(110, 208, 120, 0.696);
+  box-shadow: 0 5px 35px rgb(255, 255, 255);
+}
+
+.box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas:
+    "form info"
+    "form map";
+  grid-gap: 20px;
+}
+
+.contact h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+}
+
+.formBox {
+  position: relative;
+  width: 100%;
+}
+
+.formBox .row50 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.formBox .row100 .inputBox {
+  width: 50%;
+}
+
+.inputBox span {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 3vh;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.infoBox {
+  text-shadow: 0 0 10px black;
+  font-size: 3vh;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.inputBox input {
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+.inputBox textarea {
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid black;
+  resize: none;
+  height: 19vh;
+  overflow: hidden;
+}
+
+.inputBox input[type="submit"] {
+  background-color: rgb(0, 125, 42);
+  color: rgb(8, 8, 8);
+  border: none;
+  font-size: 20px;
+  max-width: 120px;
+  font-style: 500;
+  cursor: pointer;
+  padding: 14px 15px;
+}
+.map {
+  padding: 0;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-contact {
+  width: 180px;
+  height: 60px;
+  padding: 15px 0px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid rgb(0, 125, 42);
+  background: rgb(198, 255, 207);
+  color: rgb(0, 125, 42);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 25px;
+  position: relative;
+  overflow: hidden;
+
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-contact:hover {
+  transition: background-color 1s;
+  background-color: rgb(155, 209, 154);
+  border: 2px solid rgb(0, 125, 42);
+}

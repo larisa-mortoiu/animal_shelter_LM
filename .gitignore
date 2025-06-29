@@ -1,0 +1,55 @@
+# === GENERAL ===
+.DS_Store
+*.log
+*.tmp
+*.suo
+*.sw?
+*.sln
+*.njsproj
+*.ntvs*
+*.local
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === BACKEND (Spring Boot - Maven) ===
+/springboot-pet/app/HELP.md
+/springboot-pet/app/target/
+/springboot-pet/app/src/main/resources/application-secret.properties
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+# Eclipse / STS
+.springBeans
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/nb-gradle/
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === FRONTEND (React - Node.js) ===
+/react-pet/node_modules/
+/react-pet/dist/
+/react-pet/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# .vscode/*
+!/react-pet/.vscode/extensions.json

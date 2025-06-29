@@ -1,0 +1,38 @@
+.operation-icon > * {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+
+.operation-icon {
+  padding: 1em;
+}
+
+.table_animals_body {
+  font-size: 1.15em;
+}
+
+#table-animale {
+  border: 1px solid pink !important;
+  background-color: white !important;
+}
+#table-animale tr,
+td,
+th {
+  border: none !important;
+}
+
+#table-animale tr {
+  border-bottom: 1px solid pink !important;
+}
+
+#table-animale tr:nth-child(even) td {
+  background-color: rgba(214, 67, 177, 0.134) !important;
+}
+#tabel-animale > tbody > tr:nth-of-type(odd) > * {
+  background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,192 @@
+.sidebar {
+  background-color: #c21c4e;
+  height: 99vh;
+  width: 225px;
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.sidebar h5 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.sidebar .d-flex:first-of-type > svg {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.sidebar .d-flex:first-of-type > svg:hover {
+  color: rgb(192, 235, 35);
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-bottom: 15px;
+}
+
+.link-container {
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-color: black;
+  transition: color 0.2s ease;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100%;
+}
+
+.link-container .icon {
+  padding: 0;
+  display: flex;
+}
+
+.link-container .icon > * {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  font-size: 1.8rem;
+}
+
+.link-container:hover {
+  background-color: #ffffff;
+}
+
+.link-container:hover .nav-link::before,
+.link-container.active .nav-link::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 35px 35px 0px 10px #ffffff;
+}
+
+.link-container:hover .nav-link::after,
+.link-container.active .nav-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 35px -35px 0px 10px #ffffff;
+  z-index: 100;
+}
+
+.link-container .nav-link {
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.link-container:hover .nav-link {
+  color: #c21c4ea1;
+}
+
+.link-container:hover {
+  color: #c21c4ea1;
+}
+
+.link-container.active {
+  background-color: #ffffff;
+}
+
+.link-container.active .nav-link,
+.link-container.active {
+  color: #a913e9;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+.option > div {
+  border-bottom-left-radius: 35px;
+}
+
+.option {
+  overflow: hidden;
+  display: none !important;
+}
+
+.option h2 > span {
+  position: relative;
+  font-size: 0.8em;
+}
+
+.option-content::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 62px;
+  height: 50px;
+  background: #c21c4e;
+  border-top-right-radius: 40%;
+}
+
+.option-content:not(:first-of-type)::before {
+  border-radius: 0%;
+}
+
+.option-content:last-of-type h2::before {
+  content: "";
+  position: absolute;
+  left: 62px;
+  bottom: 0px;
+  width: 30px;
+  height: 30px;
+  border-bottom-left-radius: 0%;
+  border-top-left-radius: 0%;
+  box-shadow: -20px 15px 0px 5px #c21c4e;
+}
+
+.option .option-content:last-of-type h2::before {
+  border-bottom-left-radius: 50%;
+}
+
+.option-content:hover {
+  background-color: #a913e9;
+}
+
+.option > div {
+  background-color: rgba(255, 255, 255, 0.921);
+}
+
+.option-content:hover h2::before {
+  background: #a913e9;
+}
+
+.option.active {
+  display: flex !important;
+}
+
+.option-content:not(:last-of-type) {
+  border-bottom: 1px solid lightslategray;
+}

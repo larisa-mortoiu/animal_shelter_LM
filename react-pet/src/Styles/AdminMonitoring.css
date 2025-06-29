@@ -1,0 +1,43 @@
+.card.video-card {
+  background: #ffffff;
+  border-radius: rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  height: fit-content;
+}
+.card.video-card .card-header {
+  background: #1e283a;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+}
+
+.param-card {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 2.5rem;
+  margin-left: -10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: transform 0.3s ease;
+  background-color: #c21c4e;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.349);
+  line-height: 250px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.41);
+}
+
+.param-card:last-child {
+  margin-bottom: 0;
+}
+.param-card:hover {
+  transform: translateY(-6px) scale(1.05);
+}

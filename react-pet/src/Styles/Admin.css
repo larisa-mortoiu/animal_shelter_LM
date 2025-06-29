@@ -1,0 +1,44 @@
+.info_card
+{
+    height: 10em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 4px rgba(1,1,1,0.2);
+}
+
+.info_card > div
+{
+    width: 60%;;
+}
+
+.info_card p
+{
+    font-size: 1.2em;
+}
+
+.info_card.dog_card
+{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(46,225,226,0.36458333333333337) 0%, rgba(0,31,255,0.41780462184873945) 100%);
+}
+
+.info_card.cat_card
+{
+    /* cursor: pointer; */
+    background: rgb(222,55,185);
+    background: radial-gradient(circle, rgba(222,55,185,0.36458333333333337) 0%, rgba(163,46,226,0.36458333333333337) 100%);
+}
+
+.info_card.animal_card
+{
+    background: rgb(55,222,212);
+background: radial-gradient(circle, rgba(55,222,212,0.36458333333333337) 0%, rgba(46,226,67,0.36458333333333337) 100%);
+}
+
+
+.info_card img
+{
+    object-fit: contain;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,144 @@
+.body_account {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    rgba(252, 252, 252, 0.708),
+    rgba(100, 244, 114, 0.696)
+  );
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  background: #ffffff8e;
+}
+
+.left_container {
+  background: hsla(122, 55%, 73%, 0.744);
+  flex: 1;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95%;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  justify-content: center;
+}
+
+.right_container {
+  background: hsla(122, 55%, 73%, 0.744);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  max-width: 70%;
+  height: 95%;
+  padding: 20px 10px;
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.h2_account {
+  font-size: 35px;
+  margin-bottom: 5px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-weight: 700;
+}
+.h3_account {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.p_account {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.table-acc {
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0 10px;
+  margin: 15px 0 15px 0;
+}
+
+.appointment_box .table-acc {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table-acc .td:first-child {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.table-acc td {
+  padding: 5px 5px;
+  text-shadow: 0 0 10px rgb(174, 226, 159);
+  font-size: 23px;
+  border: 1px solid transparent;
+}
+
+.info_box .table-acc td {
+  padding-right: 30px;
+}
+
+.box_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.info_box,
+.appointment_box {
+  background-color: #fffcf4ce;
+  padding: 5px 30px 5px 30px;
+  width: 85%;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.227);
+}
+
+.table-acc thead {
+  background-color: #4caf50;
+}
+
+.table-acc th {
+  color: white;
+  font-size: 1.3rem;
+  text-shadow: black 0px 0px 10px;
+}
+
+.table-acc tbody tr:nth-child(odd) {
+  background-color: #c3eec2c6;
+}

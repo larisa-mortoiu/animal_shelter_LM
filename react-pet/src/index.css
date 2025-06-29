@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+}
+
+body {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.div-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn-custom {
+  width: 200px;
+  padding: 15px 0px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid rgb(0, 125, 42);
+  background: rgba(220, 255, 234, 0.562);
+  color: rgb(0, 125, 42);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 25px;
+  position: relative;
+  overflow: hidden;
+
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-custom:hover {
+  transition: background-color 1s;
+  background-color: rgba(220, 255, 234, 0.562);
+  border: 2px solid rgb(0, 125, 42);
+  color: black;
+}
+
+.big-text {
+  font-size: 100px;
+}
+
+.big-text h1 {
+  font-size: 70px;
+}
+
+.btn-custom .span-btn {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
